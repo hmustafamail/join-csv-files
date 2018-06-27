@@ -24,6 +24,8 @@ try:
     # Read, merge, write
     a = pd.read_csv(in1)
     b = pd.read_csv(in2)
+    a[joincol] = a[joincol].astype(str)
+    b[joincol] = b[joincol].astype(str)
     merged = a.merge(b, on=joincol)
     outname = in1[:-4] + in2[:-4] + '.csv'
     merged.to_csv(outname, index=False)
