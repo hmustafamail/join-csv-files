@@ -18,3 +18,5 @@ Alternatively, you run `join-interactive.py` in the Python IDLE.
 
 ## Credits
 Thanks to the Pandas developers for maintaining such an excellent library. Thanks to DSM from stackoverflow.com/questions/16265831 for showing how to use it.
+
+Copyright for all code in this repository: CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
